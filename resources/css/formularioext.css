@@ -1,0 +1,228 @@
+.espacio_form{
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+.formulario{
+    position: absolute;
+    width: 32%;
+    height: auto;
+    left: 34%;
+    top: 3%;
+    background: #333645;
+    border-radius: 10px;
+    color: white;
+    padding-bottom:80px ;
+}
+.formulario h1{
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    width: 94%;
+    padding: 3%;
+    font-size: 1.5em;
+    color: white;
+    height: auto;
+    background: #01aaef;
+}
+.formulario input[type= text], input[type= email]{
+    position: relative;
+    top:15px;
+    margin-top: 8px;
+    width: 80%;
+    left: 8%;
+    padding: 2%;
+    font-size: .8em;
+    color: rgb(124, 122, 122);
+    height: auto;
+}
+.formulario select{
+    position: relative;  
+    width: 85%;
+    left: 8%;
+    margin-top: 8px;
+    padding: 2%;
+    font-size: .8em;
+    color: rgb(124, 122, 122);
+    height: auto;
+}
+.formulario input[type= datetime]{
+    position: relative;
+    width: 80%;
+    left: 8%;
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 1em;
+    color: rgb(124, 122, 122);
+    height: auto;
+}
+.formulario input[type= date]{
+    position: relative;
+    width: 80%;
+    left: 8%;
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 1em;
+    color: rgb(124, 122, 122);
+    height: auto;
+}
+.formulario label[for="registro"] {
+    position: relative;
+    left: 8%;
+    top: 8px;
+    font-size: .9em;
+    color:white;
+    height: auto;
+}
+.formulario label[for="vigencia"] {
+    position: relative;
+    left: 8%;
+    top: 8px;
+    font-size: .9em;
+    color:white;
+    height: auto;
+}
+.formulario label[for="pago"] {
+    position: relative;
+    left: 8%;
+    top: 8px;
+    font-size: .9em;
+    color:white;
+    height: auto;
+}
+/*
+.formulario label[for ="radio"]{
+    position: relative;
+    left: 25px;
+}*/
+.formulario input[type="radio"] {
+    display: none;
+   
+}
+.formulario input[type="radio"] + label span {
+    position: relative;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: -1px 4px 0 0;
+	vertical-align: middle;
+	background: url(../../img/BotonVacioSelec.png);
+	background-size: cover;
+	cursor: pointer;
+}
+.formulario label[for="estado_pagado"] {
+   position: relative;
+    left: 15%;
+}
+.formulario label[for="estado_pendiente"] {
+    position: relative;
+     left: 8%;
+ }
+ .formulario label[for="Selectnegocio"] {
+    position: relative;
+     left: 8%;
+ }
+.formulario input[type="radio"]:checked + label span {
+	background: url(../../img/BotonVerdeSelec.png);
+	background-size: cover;
+}
+.formulario input[type= submit]{
+    position: relative;
+    width: 30%;
+    left: 35%;
+    padding: 8px;
+    font-size: 1em;
+    top: 40px;
+    border: 0px;
+    color:white;
+    height: auto;
+    background: #02aaf1;
+}
+.formulario label[for="file"] {
+    
+    position: relative;
+    left: 8%;
+    top: 10px;
+    font-size: .9em;
+    color:white;
+    height: auto;
+}
+.formulario input[type= file]{
+    margin-top: 10px;
+    position: relative;
+    left: 8%;
+}
+.formulario p{
+    position: relative;
+    color: red;
+    margin-top: 20px;
+    left: 8%;
+}
+
+.modal {
+    position: fixed; 
+    z-index: 1; 
+    left: 38%;
+    top: 20%;
+    width: 25%; 
+    height: 300px;  
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+.modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.tabla .estadoc{
+    font-size: 0px;
+    position: relative;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+    margin: -1px 4px 0 0;
+    border: none;
+	vertical-align: middle;
+	background: url(../../img/BotonVacioSelec.png);
+	background-size: cover;
+	cursor: pointer;
+}
+
+.tabla .estadoc2{
+    font-size: 0px;
+    position: relative;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+    margin: -1px 4px 0 0;
+    border: none;
+	vertical-align: middle;
+	background: url(../../img/BotonVerdeSelec.png);
+	background-size: cover;
+	cursor: pointer;
+
+}

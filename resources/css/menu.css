@@ -1,0 +1,44 @@
+nav  {
+    display: block;
+    width: 70%;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0px 0 0px 0;
+    padding: .0em;
+    float: left;
+    list-style: none;
+    border-radius: .1em;    
+    
+}
+
+nav li {
+    float:left;
+}
+
+nav a {
+    float:left;
+    padding: 1em .8em;
+    text-decoration: none;
+    color:#ffffff;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold 1em/1;
+    letter-spacing: 1px;
+    /*text-transform: uppercase;
+    esto es para que esten en mayusculas todo*/
+    
+ }
+nav a:hover, nav a:focus {
+    outline: 0;
+    color: #fff;
+    text-shadow: 0 0px 0 rgba(0,0,0,.0);
+   
+    background: #e6344a;
+    height: 1.1em;
+}
+.principal{
+   height: 1.1em;
+   background: #e6344a;
+}

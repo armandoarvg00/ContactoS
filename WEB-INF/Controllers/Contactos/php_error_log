@@ -1,0 +1,14 @@
+[16-Jun-2021 06:59:11 Europe/Berlin] PHP Fatal error:  Call to undefined method Ventas::setIdVentas() in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 35
+[17-Jun-2021 02:45:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 83
+[17-Jun-2021 02:45:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 83
+[17-Jun-2021 02:46:26 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 83
+[17-Jun-2021 03:36:05 Europe/Berlin] PHP Fatal error:  Call to undefined method Contactos::EditComentarioC() in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 93
+[17-Jun-2021 05:38:21 Europe/Berlin] PHP Fatal error:  Call to a member function setIdVentas() on null in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 70
+[17-Jun-2021 06:21:04 Europe/Berlin] PHP Fatal error:  Call to a member function setIdVentas() on null in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 70
+[17-Jun-2021 06:22:10 Europe/Berlin] PHP Fatal error:  Call to a member function setIdVentas() on null in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 70
+[17-Jun-2021 06:23:34 Europe/Berlin] PHP Fatal error:  Call to a member function setIdVentas() on null in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 70
+[17-Jun-2021 06:24:22 Europe/Berlin] PHP Fatal error:  Call to a member function setIdVentas() on null in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 70
+[17-Jun-2021 06:24:27 Europe/Berlin] PHP Fatal error:  Call to a member function setIdVentas() on null in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 70
+[17-Jun-2021 06:25:13 Europe/Berlin] PHP Fatal error:  Call to a member function setIdVentas() on null in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 70
+[17-Jun-2021 06:25:39 Europe/Berlin] PHP Fatal error:  Call to a member function setIdVentas() on null in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 70
+[17-Jun-2021 16:23:34 Europe/Berlin] PHP Fatal error:  Call to a member function obtenerLista() on null in C:\xampp\htdocs\CRMV2\WEB-INF\Controllers\Contactos\ControllerC.php on line 101

@@ -1,0 +1,463 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+html,body
+{
+width:100%;
+height:100%;
+}
+body{
+    background-image: url("../img/Bienvenida_CRM_1920x1080px.jpg");
+    background-position: center;
+    background-repeat:repeat-y;
+    background-size: cover;
+}
+
+.cuerpo{
+    width:100%;
+    height:100%;
+}
+.dinamica{ 
+    position: absolute;
+    left: 2%;
+    width:30%;
+    height:30%;
+    top:35%;
+}
+.cntr{
+    height: 75px;
+    margin-top: 5px;    
+}
+.cntr .clock{
+    color: white;
+    font-size: 55px;
+    height: 55px;
+    font-family:Arial;
+}
+.dinamica img{
+    width: 100%;
+    height: 100%;
+}
+.frase{
+    position: absolute;
+    width:30%;
+    height:30%;
+    right: 2%;
+    top:35%;
+}
+.frase img{
+    width: 100%;
+    height: 100%;
+}
+.frase #frase2{
+    display: none;
+}
+.login{
+    border-radius: 8px;
+    position: absolute;
+    width:32%;
+    height:450px;
+    left: 34%;
+    top:26%;
+    background-color: rgb(253, 253, 253);
+}
+.formulario{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    height: 20%;
+    top: 5%;
+}
+.formulario img{
+    width: 100%;
+    height: 100%;
+}
+.campos{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 25%;
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px; 
+    color:#7f7f7f;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text], input[type=password]{
+    background:rgb(218, 217, 217);
+    color:#5c5c5c;
+    margin: 10px;
+    padding-left: 18px;
+    width: 75%;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0px;
+}
+input[type=submit]{
+    border: 0px;
+    background: #fe0000;
+    color: white;
+    font-size: 1.5em;
+    width: 40%;
+    height: 44px;
+    border-radius: 8px;
+}
+.campos .error{
+    font-size: 18px;
+    color: red;;
+}
+@media (max-width:1024px){
+    body{
+        background-image: none;
+        background-color: #073acb !important;
+    }
+    .dinamica{
+        position: absolute;
+        left: 15%;
+        width:70%;
+        height:45%;
+        top:0%;
+    }
+    .frase{
+        position: absolute;
+        width:60%;
+        height:15%;
+        left:20%;
+        top:88%;
+    }
+    .frase #frase1{
+        display: none;
+    }
+    .frase #frase2{
+        display: block;
+    }
+    .login{
+        width:70%;
+        height:40%;
+        left: 15%;
+        top:47%;
+    }
+    .formulario{
+        width: 36%;
+        left: 30%;
+        height: 20%;
+        top: 5%;
+    }
+    p{
+        padding-top: 30px;
+        padding-bottom: 20px; 
+        font-size: 1.8em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+ 
+    input[type=text], input[type=password]{
+        font-size: 1.5em;
+        height: 60px;
+        font-weight: bold;
+        border-radius: 8px;
+        border: 0px;
+    }
+
+    input[type=submit]{
+        margin: 15px;
+    }
+ 
+    .frase{
+        position: absolute;
+        width:60%;
+        height:15%;
+        left:20%;
+        top:105%;
+    }
+    .login{
+        width:70%;
+        height:55%;
+        left: 15%;
+        top:47%;
+    }
+}
+@media (max-width:425px){
+    .dinamica{
+        left: 5%;
+        width:90%;
+        height:35%;
+        top:0%;
+    }
+    .frase{
+        position: absolute;
+        width:80%;
+        height:10%;
+        left:10%;
+        top:85%;
+    }
+    .login{
+        width:90%;
+        height:43%;
+        left: 5%;
+        top:37%;
+    }
+
+    p{
+        padding-top: 20px;
+        padding-bottom: 10px; 
+        font-size: 1.4em;
+    }
+    input[type=text], input[type=password]{
+        font-size: 1.5em;
+        height: 40px;
+        font-weight: bold;
+        border-radius: 8px;
+        border: 0px;
+    }
+
+    input[type=submit]{
+        margin: 5px;
+    }
+}
+
+@media (max-width:360px){
+    .dinamica{
+        left: 5%;
+        width:90%;
+        height:35%;
+        top:0%;
+    }
+    .frase{
+        position: absolute;
+        width:80%;
+        height:10%;
+        left:10%;
+        top:89%;
+    }
+    .formulario{
+        width: 50%;
+        left: 25%;
+        height: 20%;
+        top: 5%;
+    }
+    .login{
+        width:90%;
+        height:50%;
+        left: 5%;
+        top:37%;
+    }
+
+    p{
+        padding-top: 20px;
+        padding-bottom: 10px; 
+        font-size: 1.4em;
+    }
+    input[type=text], input[type=password]{
+        font-size: 1.5em;
+        height: 40px;
+        font-weight: bold;
+        border-radius: 8px;
+        border: 0px;
+    }
+
+    input[type=submit]{
+        margin: 5px;
+    }
+}
+
+
+
+@media (orientation: landscape) and (max-width: 1024px){
+    body{
+        background-image: url("../img/Bienvenida_CRM_1920x1080px.jpg");
+        background-position: center;
+        background-repeat:repeat-y;
+        background-size: cover;
+    }
+    .cuerpo{
+        width:100%;
+        height:100%;
+    }
+    .dinamica{
+        position: absolute;
+        left: 2%;
+        width:30%;
+        height:50%;
+        top:25%;
+    }
+    .dinamica img{
+        width: 100%;
+        height: 100%;
+    }
+    .frase{
+        position: absolute;
+        width:30%;
+        height:20%;
+        left: 66%;
+        top:40%;
+    }
+    .frase img{
+        width: 100%;
+        height: 100%;
+    }
+    .frase #frase1{
+        display: none;
+    }
+    .frase #frase2{
+        display: block;
+    }
+    .login{
+        border-radius: 8px;
+        position: absolute;
+        width:32%;
+        height:70%;
+        left: 34%;
+        top:15%;
+        background-color: rgb(253, 253, 253);
+    }
+    .formulario{
+        position: absolute;
+        width: 70%;
+        left: 15%;
+        height: 20%;
+        top: 5%;
+    }
+    .formulario img{
+        width: 100%;
+        height: 100%;
+    }
+    .campos{
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        top: 25%;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px; 
+        color:#7f7f7f;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    input[type=text], input[type=password]{
+        background:rgb(218, 217, 217);
+        color:#5c5c5c;
+        margin: 5px;
+        padding-left: 18px;
+        width: 75%;
+        height: 30px;
+        font-weight: bold;
+        border-radius: 8px;
+        border: 0px;
+    }
+    input[type=submit]{
+        margin: 5px;    
+        border: 0px;
+        background: #fe0000;
+        color: white;
+        font-size: 1.5em;
+        width: 40%;
+        height: 34px;
+        border-radius: 8px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1024px){
+    body{
+        background-image: url("../img/Bienvenida_CRM_1920x1080px.jpg");
+        background-position: center;
+        background-repeat:repeat-y;
+        background-size: cover;
+    }
+    .cuerpo{
+        width:100%;
+        height:100%;
+    }
+    .dinamica{
+        position: absolute;
+        left: 2%;
+        width:30%;
+        height:50%;
+        top:25%;
+    }
+    .dinamica img{
+        width: 100%;
+        height: 100%;
+    }
+    .frase{
+        position: absolute;
+        width:25%;
+        height:35%;
+        left: 69%;
+        top:40%;
+    }
+    .frase img{
+        width: 100%;
+        height: 100%;
+    }
+    .frase #frase1{
+        display: block;
+    }
+    .frase #frase2{
+        display: none;
+    }
+    .login{
+        border-radius: 8px;
+        position: absolute;
+        width:32%;
+        height:75%;
+        left: 34%;
+        top:15%;
+        background-color: rgb(253, 253, 253);
+    }
+    .formulario{
+        position: absolute;
+        width: 60%;
+        left: 15%;
+        height: 20%;
+        top: 5%;
+    }
+    .formulario img{
+        width: 100%;
+        height: 100%;
+    }
+    .campos{
+        position: absolute;
+        width: 100%;
+        height: 70%;
+        top: 25%;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 10px; 
+        color:#7f7f7f;
+        font-size: .8em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    input[type=text], input[type=password]{
+        color:#5c5c5c;
+        margin: 1px;
+        padding-left: 10px;
+        width: 75%;
+        height: 30px;
+        
+        font-weight: bold;
+        border-radius: 8px;
+        border: 0px;
+    }
+    input[type=submit]{
+        margin: 5px;    
+        border: 0px;
+        background: #fe0000;
+        color: white;
+        font-size: 1em;
+        width: 40%;
+        height: 34px;
+        border-radius: 8px;
+    }
+}
